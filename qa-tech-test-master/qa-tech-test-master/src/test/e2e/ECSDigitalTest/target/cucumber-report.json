@@ -1,0 +1,49 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Find the index of Arrays",
+        "description": "",
+        "id": "ecsdigital-assignment;find-the-index-of-arrays",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "line": 3,
+            "name": "User is on ECSDigital Test page",
+            "keyword": "Given "
+          },
+          {
+            "line": 4,
+            "name": "User clicks on Render the Challenge button",
+            "keyword": "And "
+          },
+          {
+            "line": 5,
+            "name": "User reads the table and find the index of each row",
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 713823513,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User submit the answers",
+            "match": {
+              "location": "Steps.User_submit_the_answers()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "ECSDigital Assignment",
+    "description": "",
+    "id": "ecsdigital-assignment",
+    "keyword": "Feature",
+    "uri": "org\\ECSDigital\\testcases\\TestValidation.feature"
+  }
+]
